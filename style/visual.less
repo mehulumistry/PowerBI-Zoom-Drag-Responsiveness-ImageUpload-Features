@@ -1,0 +1,46 @@
+p {
+    font-size: 20px;
+    font-weight: bold;
+    em {
+        background: yellow;
+        padding: 5px;
+        
+    }
+}
+
+.svg-container {
+    background: url('https://www.google.nl/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png') no-repeat;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    background-image: url("abc.png");
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    background: url('https://www.google.nl/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png') no-repeat;
+    display: inline-block;
+    background-image: url("abc.png");
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+
+.toolbar { position: absolute; top:0; left:0; z-index:999999; background:#333; color:#fff; padding:4px; box-sizing: border-box; box-shadow: 1px 1px 5px 1px rgba(0,0,0,.3); font-size:13px; }
+.toolbar .buttons {display:inline-block;}
+.toolbar .sep {display: inline-block; border-left:1px solid #000; margin:0 6px; line-height: 18px }
+.toolbar select { width:120px; background: #444; border: 1px solid #000; padding:4px !important; font-size:12px; margin:1px 3px; color: #fff; display: inline-block !important; font-family:'Segoe UI',wf_segoe-ui_normal,helvetica,arial,sans-serif;  }
+
+.toolbar.fixed { position: static; width: 100%; text-align: center; background: none; box-shadow:none}
+.toolbar.fixed .sep {border:none}
+.toolbar.fixed select {background: #fff; border-color: #e9e9e9; color:#333; }
+.toolbar.fixed button { color: #333}
+    .toolbar.fixed button:hover, .toolbar.fixed button.active {background:#c8c8c8; }
+  .toolbar.fixed button.disabled:hover, .toolbar.fixed button.disabled {color:#333}
+  .toolbar.fixed button path, .toolbar.fixed button path, .toolbar.fixed button rect, .toolbar.fixed button rect, .toolbar.fixed button polygon, .toolbar.fixed button polygon { fill:#333 !important}
+
+  button.zoomIn svg, button.zoomOut svg, button.zoom0 svg {margin:0}
+
+button.disabled:hover path, button.disabled path, button.disabled:hover rect, button.disabled rect, button.disabled:hover polygon, button.disabled polygon {fill:#fff !important; opacity:0.5}

@@ -1,0 +1,9 @@
+{
+  "name": "visual",
+  "dependencies": {
+    "d3": "^3.5.5",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.5",
+    "powerbi-visuals-utils-dataviewutils": "1.2.0"
+  }
+}
